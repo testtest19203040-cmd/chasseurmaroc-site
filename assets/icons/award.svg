@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none">
+<defs><mask id="solid-award-ribbon-cut" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24"><rect width="24" height="24" fill="white"/><circle cx="12" cy="8" r="6" fill="black" stroke="black" stroke-width="4.5"/></mask></defs>
+<defs><mask id="solid-award-disc-cut" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24"><rect width="24" height="24" fill="white"/><circle cx="12" cy="8" r="3" stroke="black" stroke-width="1.5"/></mask></defs>
+<path mask="url(#solid-award-ribbon-cut)" d="M15.477 12.89L16.992 21.416C17.0313 21.6372 16.8834 21.8483 16.6622 21.8876C16.5503 21.9075 16.4352 21.8803 16.3438 21.8125L12.7638 19.1255C12.4083 18.8586 11.9187 18.8586 11.5632 19.1255L7.9772 21.8115C7.79762 21.9462 7.54287 21.9098 7.40819 21.7302C7.33989 21.6391 7.31241 21.5238 7.3322 21.4116L8.8462 12.8856Z" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+<circle mask="url(#solid-award-disc-cut)" cx="12" cy="8" r="6" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>
