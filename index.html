@@ -130,6 +130,7 @@
         ]
       }
     </script>
+  <style>.lang-menu{position:relative}.lang-menu>summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:6px;white-space:nowrap}.lang-menu>summary::-webkit-details-marker{display:none}.lang-menu ul{position:absolute;top:calc(100% + 8px);inset-inline-end:0;min-width:150px;margin:0;padding:6px;list-style:none;background:var(--surface,var(--canvas,#fff));border:1px solid rgba(127,127,127,.25);border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.15);z-index:60}.lang-menu li a{display:block;padding:9px 12px;border-radius:10px;text-decoration:none;color:inherit;font-weight:500}.lang-menu li a:hover,.lang-menu li a[aria-current]{background:rgba(127,127,127,.14)}</style>
   </head>
   <body>
     <a class="skip" href="#contenu">Aller au contenu</a>
@@ -144,7 +145,7 @@
         <a href="#questions">Questions</a>
       </nav>
       <div class="nav-actions">
-        <a class="chip" href="/ar/" hreflang="ar" lang="ar" data-language="ar">العربية</a>
+        <details class="lang-menu"><summary class="chip" aria-label="Langue / اللغة / Language">🌐 Français</summary><ul><li><a href="/" hreflang="fr" aria-current="page">Français</a></li><li><a href="/ar/" hreflang="ar">العربية</a></li><li><a href="/en/" hreflang="en">English</a></li><li><a href="/ma/" hreflang="ary">الدارجة</a></li></ul></details>
         <button class="chip chip-icon" type="button" data-theme-cycle aria-label="Apparence : Système"><i class="icon" style="--i:url(/assets/icons/contrast.svg)" aria-hidden="true"></i></button>
         <a class="btn nav-cta" href="#telecharger" data-track="cta_clicked" data-track-place="nav">Télécharger</a>
         <button class="menu" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Menu"><span></span><span></span></button>
@@ -500,5 +501,6 @@
         </div>
       </div>
     </footer>
+  <script>document.addEventListener('click',e=>{document.querySelectorAll('.lang-menu[open]').forEach(d=>{if(!d.contains(e.target))d.removeAttribute('open')})});</script>
   </body>
 </html>
