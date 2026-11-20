@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none">
+<defs><mask id="solid-group-cut" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24"><rect width="24" height="24" fill="white"/><circle cx="14.5" cy="7" r="4" fill="black" stroke="black" stroke-width="4.5"/><path d="M14.5 14C9.8125 14 7 16.5 7 19C7 20.1046 7.83947 21 8.875 21H20.125C21.1605 21 22 20.1046 22 19C22 16.5 19.1875 14 14.5 14Z" fill="black" stroke="black" stroke-width="4.5" stroke-linejoin="round"/></mask></defs>
+<g mask="url(#solid-group-cut)">
+<circle cx="7.5" cy="8.5" r="2.75" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M2 19C2 16.7909 4.46243 15 7.5 15C9.5 15 10.5 15.5 11 16V20.5H3.5C2.67157 20.5 2 19.8284 2 19Z" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+</g>
+<circle cx="14.5" cy="7" r="4" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+<path d="M14.5 14C9.8125 14 7 16.5 7 19C7 20.1046 7.83947 21 8.875 21H20.125C21.1605 21 22 20.1046 22 19C22 16.5 19.1875 14 14.5 14Z" fill="#000000" stroke="#000000" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>
